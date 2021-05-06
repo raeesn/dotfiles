@@ -1,0 +1,26 @@
+{
+    // Require .prettierrc
+    "prettier.requireConfig": true,
+
+    // Tslint on save
+    "tslint.enable": true,
+    "tslint.autoFixOnSave": true,
+
+	"rust-analyzer.server.path": "/home/rayees/.local/bin/rust-analyzer",
+    "codeLens.enable": true,
+    "java.referencesCodeLens.enabled": true,
+    "java.jdt.ls.vmargs": "-javaagent:/usr/local/share/lombok/lombok.jar",
+    "coc.preferences.formatOnSaveFiletypes": [
+        "java",
+        "rust",
+        "json",
+        "javascript",
+        "html",
+        "python",
+        "yaml",
+        "markdown",
+        "Markdown",
+        "typescript"
+    ]
+} 
+
